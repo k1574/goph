@@ -710,7 +710,7 @@ dig(Item *entry, Item *item)
 	case '5':
 	case '6':
 	case '9':
-		downloaditem(item);
+		plumbitem(item);
 		return 0;
 	case '8':
 		if (asprintf(&plumburi, "telnet://%s%s%s:%s",
